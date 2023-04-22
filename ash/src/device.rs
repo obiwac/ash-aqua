@@ -11,10 +11,10 @@ use std::ptr;
 pub struct Device {
     pub(crate) handle: vk::Device,
 
-    pub(crate) device_fn_1_0: vk::DeviceFnV1_0,
-    pub(crate) device_fn_1_1: vk::DeviceFnV1_1,
-    pub(crate) device_fn_1_2: vk::DeviceFnV1_2,
-    pub(crate) device_fn_1_3: vk::DeviceFnV1_3,
+    pub device_fn_1_0: vk::DeviceFnV1_0,
+    pub device_fn_1_1: vk::DeviceFnV1_1,
+    pub device_fn_1_2: vk::DeviceFnV1_2,
+    pub device_fn_1_3: vk::DeviceFnV1_3,
 }
 
 impl Device {
