@@ -11,10 +11,10 @@ use std::ptr;
 pub struct Instance {
     pub(crate) handle: vk::Instance,
 
-    pub(crate) instance_fn_1_0: vk::InstanceFnV1_0,
-    pub(crate) instance_fn_1_1: vk::InstanceFnV1_1,
-    pub(crate) instance_fn_1_2: vk::InstanceFnV1_2,
-    pub(crate) instance_fn_1_3: vk::InstanceFnV1_3,
+    pub instance_fn_1_0: vk::InstanceFnV1_0,
+    pub instance_fn_1_1: vk::InstanceFnV1_1,
+    pub instance_fn_1_2: vk::InstanceFnV1_2,
+    pub instance_fn_1_3: vk::InstanceFnV1_3,
 }
 
 impl Instance {
